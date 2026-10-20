@@ -41,7 +41,7 @@
 
 将发行目录 `AikunMiscPatchPack` 放入游戏 `mods`。在模组列表中将本包排在所有需要修补的模组之前；RitsuLib 会按依赖规则先加载。
 
-本机可在退出游戏后运行 `Install-Local.ps1`：归档此前 13 个本地覆盖目录，安装本包并设置加载顺序。工坊原件不变，存档不变。不要同时保留此前的独立顶栏、融合任务补丁和各个 `_LocalFix` 修复目录，否则关闭开关后旧补丁仍可能生效。
+本机可在退出游戏后运行 `Install-Local.ps1`：归档此前 13 个本地覆盖目录（作者调试时用的单独的补丁目录），安装本包并设置加载顺序。工坊原件不变，存档不变。
 
 RitsuLib 配置文件位于相应 Steam 账号目录的 `mod_data/AikunMiscPatchPack/options.json`，不增加当前局存档字段。
 
