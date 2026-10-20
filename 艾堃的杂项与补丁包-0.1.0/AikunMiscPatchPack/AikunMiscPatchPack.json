@@ -1,0 +1,12 @@
+{
+ "id":"AikunMiscPatchPack",
+ "name":"艾堃的杂项与补丁包",
+ "author":"艾堃",
+ "description":"杂项：更好的顶栏。补丁：哥伦比娅、进阶难度、宝箱钥匙、Gravity、融合扩展、东尼算法、小猪再生、遗物整理、Plague、附魔与赐福继承、YUI结算和任务卡兼容。可在RitsuLib中独立开关；缺少目标模组时自动跳过。",
+ "version":"0.1.0",
+ "has_dll":true,
+ "has_pck":false,
+ "affects_gameplay":true,
+ "min_game_version":"0.111.0",
+ "dependencies":[{"id":"STS2-RitsuLib","min_version":"0.6.7"}]
+}
