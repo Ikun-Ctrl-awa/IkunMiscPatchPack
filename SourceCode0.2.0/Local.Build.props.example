@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <GameManagedDir>C:/Games/SlayTheSpire2/data_sts2_windows_x86_64</GameManagedDir>
+    <RitsuSdkDir>C:/LocalDependencies/ritsulib-0.6.7</RitsuSdkDir>
+    <MonoCecilDir>C:/LocalDependencies/cecil/lib/netstandard2.0</MonoCecilDir>
+    <WorkshopDir>C:/Games/Steam/steamapps/workshop/content/2868840</WorkshopDir>
+    <!-- 应包含 catalog.json、assets/，完整差分检查还需 variants/。 -->
+    <PatchInputsDir>C:/LocalDependencies/AikunMiscPatchPack-private-inputs</PatchInputsDir>
+  </PropertyGroup>
+</Project>
