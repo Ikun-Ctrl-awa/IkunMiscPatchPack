@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net9.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><AssemblyName>Aikun020Probe</AssemblyName><Version>0.2.0</Version></PropertyGroup>
+ <ItemGroup>
+  <Reference Include="sts2"><HintPath>$(GameManagedDir)/sts2.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="GodotSharp"><HintPath>$(GameManagedDir)/GodotSharp.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="0Harmony"><HintPath>$(GameManagedDir)/0Harmony.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib.Runtime"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.Runtime.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib.Settings"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.Settings.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib.Shared"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.Shared.dll</HintPath><Private>false</Private></Reference>
+ </ItemGroup>
+<ItemGroup><ProjectReference Include="../src/AikunMiscPatchPack.csproj"/><Compile Remove="bootstrap/**;workshop/**"/></ItemGroup></Project>
