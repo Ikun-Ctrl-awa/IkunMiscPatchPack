@@ -1,0 +1,17 @@
+{
+  "id": "AikunMiscPatchPack",
+  "name": "艾堃的杂项与补丁包",
+  "author": "艾堃",
+  "description": "0.2.0 测试版。杂项：更好的顶栏、剧情可以跳过、mod形态（兼容叠影等重复升级附魔）。32 项独立补丁，包含 YUI 点火永久附魔战后保留、昔涟增伤和事件结算接口适配、哥伦比娅百科卡图、附魔图鉴汉化与描述补全、东尼算法与缺陷充能球导致无法出牌修复、状态附加计数巨字修复、海克斯复视与遗物三选一兼容、七咒之戒与海克斯 Boss 最大生命惩罚兼容、千咒卷轴与进阶 Boss 诅咒兼容、融合强化规则、多次升级预览、多重附魔图标、Act 4 Heart 钥匙顶栏、往昔之章随机混入；在 RitsuLib 中配置。",
+  "version": "0.2.0",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": true,
+  "min_game_version": "0.111.0",
+  "dependencies": [
+    {
+      "id": "STS2-RitsuLib",
+      "min_version": "0.6.7"
+    }
+  ]
+}
