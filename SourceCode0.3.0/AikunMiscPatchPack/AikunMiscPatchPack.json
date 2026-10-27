@@ -1,0 +1,17 @@
+{
+  "id": "AikunMiscPatchPack",
+  "name": "艾堃的杂项与补丁包",
+  "author": "艾堃",
+  "description": "0.3.0 测试版：血魔宗融合按子卡顺序吸血与叠加，兼容合并效果模式，升级子卡执行后开启临时血量；血魔宗初始4费，首次升级变为3费并获得保留，后续升级费用不变，兼容融合子卡首次降费与保留、Free Loadout控制台突破等级上限及等级存读；含累计吸血、原生数字角标与临时血池。保留融合打击显示、闹鬼的铁砧、石中剑、尘封魔典、卡图等既有修复。4项杂项、36项独立补丁，在RitsuLib中配置。",
+  "version": "0.3.0",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": true,
+  "min_game_version": "0.111.0",
+  "dependencies": [
+    {
+      "id": "STS2-RitsuLib",
+      "min_version": "0.6.7"
+    }
+  ]
+}

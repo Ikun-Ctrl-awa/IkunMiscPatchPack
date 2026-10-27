@@ -1,0 +1,189 @@
+{
+  "CurrentProfile": "release-blockers",
+  "Profiles": {
+    "blood-fusion-leech": {
+      "Description": "本轮：融合子卡结算顺序、当次攻击吸血、多张血魔宗比例累加、升级溢出时机、真实多段及相关来源排除。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-fusion-leech"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blood-fusion": {
+      "Description": "本轮：血魔宗融合子卡首次降费、保留、控制台突破及相关克隆读档和原生预览。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-fusion"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blood-cost-console": {
+      "Description": "本轮：血魔宗4费，首次升级3费且保留，后续费用不变；控制台突破、直接设等级、克隆读档、实际保留、吸血与原生升级预览。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-cost-console"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "fusion-strike": {
+      "Description": "本轮：融合打击卡面旧数值变量与真实动态伤害绑定；融合素材数量、升级、多次升级、克隆读档、目标增减伤及原生卡面。",
+      "DefaultMode": "full",
+      "Primary": [
+        "fusion-strike"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "ghostly-anvil": {
+      "Description": "本轮：闹鬼的铁砧固定升级三次立即移除，融合及再次融合按铁砧子卡计数；批量升级、附魔上限、预览、战斗副本、保存及独立开关。",
+      "DefaultMode": "full",
+      "Primary": [
+        "ghostly-anvil"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blood-stacking": {
+      "Description": "本轮：血魔宗多次打出吸血比例累加、致死性同款数字角标（不带百分号）、升级牌开启溢出且与顺序无关；相关卡牌伤害归属、格挡来源和临时血池生命周期。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-stacking"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blood-card-damage-art": {
+      "Description": "本轮：仅卡牌本体伤害吸血、模组伤害来源转发、红色吸血武器大小卡图；相关格挡及临时血池怪物兼容。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-card-damage-art"
+      ],
+      "Related": [
+        "startup",
+        "blood-block-sources"
+      ]
+    },
+    "blood-block-sources": {
+      "Description": "本轮：血魔宗所有等级允许药水与覆甲、金属化、多层护甲；相关临时血池怪物兼容与卡面描述。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-block-sources"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blood-sect-sword-quest": {
+      "Description": "本轮：血魔宗升级、吸血、临时血池及怪物兼容；石中剑与融合任务精英结算。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-sect",
+        "stone-sword-quest"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "fake-dusty-tome": {
+      "Description": "本轮：更多的假遗物尘封魔典升级、预览、保存、开关及相关启动检查。",
+      "DefaultMode": "full",
+      "Primary": [
+        "fake-dusty-tome"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "modform-art": {
+      "Description": "本轮：mod形态大小卡图、资源路径、克隆与读档；相关启动检查。",
+      "Primary": [
+        "modform-art"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "upgrade-preview": {
+      "DefaultMode": "full",
+      "Description": "升级预览专项及相关启动检查。",
+      "Primary": [
+        "upgrade-preview"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "fusion-upgrades": {
+      "DefaultMode": "full",
+      "Description": "融合升级专项、相关升级预览与启动检查。",
+      "Primary": [
+        "fusion-upgrades"
+      ],
+      "Related": [
+        "startup",
+        "upgrade-preview"
+      ]
+    },
+    "settings-fold": {
+      "Description": "本轮：40项说明默认折叠，独立展开收起，原生页面鼠标交互、布局、设置值及相关启动检查。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "settings-fold"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "settings-inline": {
+      "Description": "本轮：展开按钮与启用同行，40项说明收展、往昔之章四种概率一同折叠、原生交互和设置值保留。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "settings-inline"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "settings-extra-fold": {
+      "Description": "本轮：跳过剧情按键与mod形态自身候选默认折叠，鼠标收展、原有值保留；相关往昔之章概率折叠及启动检查。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "settings-extra-fold"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "settings-compact": {
+      "Description": "本轮：40项标题、原生启用开关、展开按钮同行，重复标题隐藏且保留节菜单；相关附属设置折叠和启动检查。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "settings-compact"
+      ],
+      "Related": [
+        "startup",
+        "settings-extra-fold"
+      ]
+    },
+    "release-blockers": {
+      "Description": "发布阻塞专项：新版差分加载、原生动画等待与输入隔离；完整回归仍须显式运行。",
+      "DefaultMode": "full",
+      "Primary": [
+        "release-compatibility",
+        "skip-animations"
+      ],
+      "Related": [
+        "startup"
+      ]
+    }
+  }
+}
