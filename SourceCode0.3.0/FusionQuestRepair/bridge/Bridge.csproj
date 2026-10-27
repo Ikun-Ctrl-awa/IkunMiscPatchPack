@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net9.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><AssemblyName>FusionQuestBlessingFix</AssemblyName></PropertyGroup>
+ <ItemGroup><Reference Include="sts2"><HintPath>$(GameManagedDir)/sts2.dll</HintPath><Private>false</Private></Reference><Reference Include="0Harmony"><HintPath>$(GameManagedDir)/0Harmony.dll</HintPath><Private>false</Private></Reference><Reference Include="GodotSharp"><HintPath>$(GameManagedDir)/GodotSharp.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+</Project>
