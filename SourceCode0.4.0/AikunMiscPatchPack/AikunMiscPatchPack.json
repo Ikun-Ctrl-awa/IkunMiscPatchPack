@@ -1,0 +1,17 @@
+{
+  "id": "AikunMiscPatchPack",
+  "name": "艾堃的杂项与补丁包",
+  "author": "艾堃",
+  "description": "0.4.0 测试开发版：更好的顶栏增加大体型怪物意图自动下移，保留融合余烬0费、复合注能自动打出及全部杂项。8项杂项、40项补丁。",
+  "version": "0.4.0",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": true,
+  "min_game_version": "0.111.0",
+  "dependencies": [
+    {
+      "id": "STS2-RitsuLib",
+      "min_version": "0.6.7"
+    }
+  ]
+}

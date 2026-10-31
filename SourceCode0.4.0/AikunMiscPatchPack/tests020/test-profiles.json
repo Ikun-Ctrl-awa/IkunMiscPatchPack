@@ -1,0 +1,400 @@
+{
+  "CurrentProfile": "release-040",
+  "Profiles": {
+    "blood-fusion-leech": {
+      "Description": "本轮：融合子卡结算顺序、当次攻击吸血、多张血魔宗比例累加、升级溢出时机、真实多段及相关来源排除。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-fusion-leech"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blood-fusion": {
+      "Description": "本轮：血魔宗融合子卡首次降费、保留、控制台突破及相关克隆读档和原生预览。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-fusion"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blood-cost-console": {
+      "Description": "本轮：血魔宗4费，首次升级3费且保留，后续费用不变；控制台突破、直接设等级、克隆读档、实际保留、吸血与原生升级预览。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-cost-console"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "fusion-strike": {
+      "Description": "本轮：融合打击卡面旧数值变量与真实动态伤害绑定；融合素材数量、升级、多次升级、克隆读档、目标增减伤及原生卡面。",
+      "DefaultMode": "full",
+      "Primary": [
+        "fusion-strike"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "ghostly-anvil": {
+      "Description": "本轮：闹鬼的铁砧固定升级三次立即移除，融合及再次融合按铁砧子卡计数；批量升级、附魔上限、预览、战斗副本、保存及独立开关。",
+      "DefaultMode": "full",
+      "Primary": [
+        "ghostly-anvil"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blood-stacking": {
+      "Description": "本轮：血魔宗多次打出吸血比例累加、致死性同款数字角标（不带百分号）、升级牌开启溢出且与顺序无关；相关卡牌伤害归属、格挡来源和临时血池生命周期。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-stacking"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blood-card-damage-art": {
+      "Description": "本轮：仅卡牌本体伤害吸血、模组伤害来源转发、红色吸血武器大小卡图；相关格挡及临时血池怪物兼容。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-card-damage-art"
+      ],
+      "Related": [
+        "startup",
+        "blood-block-sources"
+      ]
+    },
+    "blood-block-sources": {
+      "Description": "本轮：血魔宗所有等级允许药水与覆甲、金属化、多层护甲；相关临时血池怪物兼容与卡面描述。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-block-sources"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blood-sect-sword-quest": {
+      "Description": "本轮：血魔宗升级、吸血、临时血池及怪物兼容；石中剑与融合任务精英结算。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-sect",
+        "stone-sword-quest"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "fake-dusty-tome": {
+      "Description": "本轮：更多的假遗物尘封魔典升级、预览、保存、开关及相关启动检查。",
+      "DefaultMode": "full",
+      "Primary": [
+        "fake-dusty-tome"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "modform-art": {
+      "Description": "本轮：mod形态大小卡图、资源路径、克隆与读档；相关启动检查。",
+      "Primary": [
+        "modform-art"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "upgrade-preview": {
+      "DefaultMode": "full",
+      "Description": "升级预览专项及相关启动检查。",
+      "Primary": [
+        "upgrade-preview"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "fusion-upgrades": {
+      "DefaultMode": "full",
+      "Description": "融合升级专项、相关升级预览与启动检查。",
+      "Primary": [
+        "fusion-upgrades"
+      ],
+      "Related": [
+        "startup",
+        "upgrade-preview"
+      ]
+    },
+    "settings-fold": {
+      "Description": "本轮：40项说明默认折叠，独立展开收起，原生页面鼠标交互、布局、设置值及相关启动检查。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "settings-fold"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "settings-inline": {
+      "Description": "本轮：展开按钮与启用同行，40项说明收展、往昔之章四种概率一同折叠、原生交互和设置值保留。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "settings-inline"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "settings-extra-fold": {
+      "Description": "本轮：跳过剧情按键与mod形态自身候选默认折叠，鼠标收展、原有值保留；相关往昔之章概率折叠及启动检查。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "settings-extra-fold"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "settings-compact": {
+      "Description": "本轮：40项标题、原生启用开关、展开按钮同行，重复标题隐藏且保留节菜单；相关附属设置折叠和启动检查。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "settings-compact"
+      ],
+      "Related": [
+        "startup",
+        "settings-extra-fold"
+      ]
+    },
+    "release-blockers": {
+      "Description": "发布阻塞专项：新版差分加载、原生动画等待与输入隔离；完整回归仍须显式运行。",
+      "DefaultMode": "full",
+      "Primary": [
+        "release-compatibility",
+        "skip-animations"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "campfire-sl": {
+      "Description": "本轮：附魔台火堆写档边界、完成标记范围、真实存档读回与剩余选项；关闭开关和无目标模组安全跳过。",
+      "DefaultMode": "full",
+      "Primary": [
+        "campfire-sl"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blessed-finesse": {
+      "Description": "本轮纠正：保留单张妙计奖励，确定随机种子重现观者头发替换并验证完整生成、重复填充与恢复；普通奖励及其他赐福保留原注入。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blessed-finesse"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "yui-fusion-blessings": {
+      "Description": "本轮：YUI全部指定卡赐福与融合扩展兼容；逐项真实拾取和完整生成、双玩家、直接发基础牌、普通随机奖励与主动重投保留；相关妙计/钢铁闪电/铁斩波恢复与妙计战斗检查。",
+      "DefaultMode": "full",
+      "Primary": [
+        "yui-fusion-blessings"
+      ],
+      "Related": [
+        "startup",
+        "blessed-finesse"
+      ]
+    },
+    "dongni-cards": {
+      "Description": "本轮：东尼五张卡牌的生成、跨牌堆消耗与变化、单牌随机分支、动态伤害、全来源格挡禁止、升级克隆读回及原生卡面。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "dongni-cards"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "dongni-art": {
+      "Description": "本轮：东尼五张专属卡图嵌入、原生普通升级卡面、克隆读回与测试图预加载路径；仅执行卡图显示专项。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "dongni-art"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "dongni-office": {
+      "Description": "本轮：东尼办公室四选项、跨章节事件池、事件遗物及拾取读回、每回合可选抽牌堆检索；保留奖励跳过按钮，仅未领取卡牌时拦截继续。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "dongni-office",
+        "dongni-reward-gate"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "blood-initiation": {
+      "Description": "血魔宗招收弟子、血盾升级、事件遗物、独立灼热与其他同名附魔注册和存档兼容、泣血实际结算。",
+      "DefaultMode": "full",
+      "Primary": [
+        "blood-initiation"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "sect-events": {
+      "Description": "血魔宗与雷电宗事件、宗门互斥、原版雷电卡条件、升级血盾、独立附魔及同名灼热兼容、事件遗物、电刀计数与融合/保存/原生显示。",
+      "DefaultMode": "full",
+      "Primary": [
+        "thunder-initiation"
+      ],
+      "Related": [
+        "startup",
+        "blood-initiation"
+      ]
+    },
+    "enchant-icons": {
+      "Description": "本轮：泣血、灼热、电弧原生图标与介绍图标统一；压缩纹理缓存、原生主槽/附加槽卡面、克隆读回与真实附魔图鉴。",
+      "DefaultMode": "full",
+      "Primary": [
+        "enchant-icons"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "event-sl": {
+      "Description": "本轮：血魔宗事件 SL 黑屏；背景真实资源卸载及线程重载、实际事件检查点保存恢复、连续 SL 与退出继续、原玩家存档副本恢复；两宗门条件文案隐藏，附魔图标保持。",
+      "DefaultMode": "full",
+      "Primary": [
+        "event-sl"
+      ],
+      "Related": [
+        "startup",
+        "enchant-icons"
+      ]
+    },
+    "upstream-audit": {
+      "Description": "本轮工坊上游修复审计：upstream-audit,campfire-sl,yui-fusion-blessings,fake-dusty-tome,portrait-localization,orb-context,pink-tomorrow,power-labels；保留关闭补丁的对照，原件哈希与运行结果分别记录。",
+      "DefaultMode": "full",
+      "Primary": [
+        "upstream-audit",
+        "campfire-sl",
+        "yui-fusion-blessings",
+        "fake-dusty-tome",
+        "portrait-localization",
+        "orb-context",
+        "pink-tomorrow",
+        "power-labels"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "upstream-fusion": {
+      "Description": "本轮工坊上游修复审计：upgrade-preview,fusion-upgrades,stone-sword-quest,ghostly-anvil,fusion-strike,ignite；保留关闭补丁的对照，原件哈希与运行结果分别记录。",
+      "DefaultMode": "full",
+      "Primary": [
+        "upgrade-preview",
+        "fusion-upgrades",
+        "stone-sword-quest",
+        "ghostly-anvil",
+        "fusion-strike",
+        "ignite"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "upstream-relics": {
+      "Description": "本轮工坊上游修复审计：curse-scroll,ring-boss-hp,double-vision-choice,medo-compatibility；保留关闭补丁的对照，原件哈希与运行结果分别记录。",
+      "DefaultMode": "full",
+      "Primary": [
+        "curse-scroll",
+        "ring-boss-hp",
+        "double-vision-choice",
+        "medo-compatibility"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "cockroach-form": {
+      "Description": "蟑螂形态：3费无色稀有能力，5/1层原生难以杀灭、每回合3层与多张累加、升级保留、卡池开关、克隆读回、卡图和融合。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "cockroach-form"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "qu-curse": {
+      "Description": "诅咒区：不可打出、一次升级3到1、原生回合末手牌筛选和伤害、其他牌堆/玩家排除、格挡减伤、克隆读回、诅咒卡池及修正版地精大块头卡图。",
+      "DefaultMode": "minimal",
+      "Primary": [
+        "qu-curse"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "imbued-apotheosis": {
+      "Description": "本轮：Plague复合注能转发、神化真实首回合与免费自动打出、升级消耗、双玩家隔离及真实卡牌存档副本。",
+      "DefaultMode": "full",
+      "Primary": [
+        "imbued-apotheosis"
+      ],
+      "Related": [
+        "startup"
+      ]
+    },
+    "fusion-ember": {
+      "Description": "本轮：融合余烬默认0费、原件对照、进战斗克隆、实际扣能量、局内升级、复合及额外槽、临时费用修正和玩家存档卡牌副本。",
+      "DefaultMode": "full",
+      "Primary": [
+        "fusion-ember"
+      ],
+      "Related": [
+        "startup",
+        "fusion-upgrades"
+      ]
+    },
+    "topbar-intents": {
+      "Description": "本轮：大体型怪物意图避开顶栏、钢铁守护者实图、原生浮动、多意图与数值、缩放窗口、体型更新、隐藏恢复；相关顶栏布局稳定性。",
+      "DefaultMode": "full",
+      "Primary": [
+        "topbar-intents"
+      ],
+      "Related": [
+        "startup",
+        "topbar-stability"
+      ]
+    },
+    "release-040": {
+      "Description": "0.4.0发布状态检查；完整回归须显式使用-Suite regression，分别full和minimal。",
+      "DefaultMode": "full",
+      "Primary": [
+        "release-compatibility"
+      ],
+      "Related": [
+        "startup"
+      ]
+    }
+  }
+}
