@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net9.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><AssemblyName>AikunMiscPatchPack</AssemblyName><Version>0.4.0</Version></PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)'=='Release'"><DebugType>none</DebugType><DebugSymbols>false</DebugSymbols></PropertyGroup>
+ <ItemGroup>
+  <Reference Include="sts2"><HintPath>$(GameManagedDir)/sts2.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="GodotSharp"><HintPath>$(GameManagedDir)/GodotSharp.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="0Harmony"><HintPath>$(GameManagedDir)/0Harmony.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib.Runtime"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.Runtime.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib.Settings"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.Settings.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib.Shared"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.Shared.dll</HintPath><Private>false</Private></Reference>
+ </ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/heart-keys/*.png"><LogicalName>heartkeys.%(Filename)%(Extension)</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/mod-form-0.3.0-concept-v1.png"><LogicalName>cardart.mod_form.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/blood-sect-0.3.0-weapon-v1.png"><LogicalName>cardart.blood_sect.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/*.br"><LogicalName>patch.%(Filename)%(Extension)</LogicalName></EmbeddedResource><EmbeddedResource Include="$(PatchInputsDir)/catalog.json"><LogicalName>patch.catalog</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/dongni-0.4.0-reference-v1/*.png"><LogicalName>cardart.dongni.%(Filename)%(Extension)</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/event-art/dongni-office-0.4.0-v1.png"><LogicalName>eventart.dongni_office.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/event-art/blood-sect-initiation-0.4.0-v1.png"><LogicalName>eventart.blood_sect_initiation.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/event-art/thunder-sect-initiation-0.4.0-v1.png"><LogicalName>eventart.thunder_sect_initiation.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/cockroach-form-0.4.0-v2.png"><LogicalName>cardart.cockroach_form.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/qu-curse-0.4.0-v8.png"><LogicalName>cardart.qu_curse.png</LogicalName></EmbeddedResource></ItemGroup>
+
+ <Target Name="ValidateLocalInputs" BeforeTargets="PrepareForBuild">
+  <ItemGroup>
+   <_LocalInput Include="$(GameManagedDir)/sts2.dll" />
+   <_LocalInput Include="$(GameManagedDir)/GodotSharp.dll" />
+   <_LocalInput Include="$(GameManagedDir)/0Harmony.dll" />
+   <_LocalInput Include="$(RitsuSdkDir)/STS2-RitsuLib.dll" />
+   <_LocalInput Include="$(RitsuSdkDir)/STS2-RitsuLib.Runtime.dll" />
+   <_LocalInput Include="$(RitsuSdkDir)/STS2-RitsuLib.Shared.dll" />
+   <_LocalInput Include="$(RitsuSdkDir)/STS2-RitsuLib.Settings.dll" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/AutoAnthony-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/AutoAnthony-EACE09DAF5DB-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/BetterAscension-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/BetterAscension-2.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/BetterAscension-3.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/card-art/blood-sect-0.3.0-weapon-v1.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/card-art/cockroach-form-0.4.0-v2.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/card-art/dongni-0.4.0-reference-v1/defend.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/card-art/dongni-0.4.0-reference-v1/meaning.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/card-art/dongni-0.4.0-reference-v1/not-meaning.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/card-art/dongni-0.4.0-reference-v1/strike.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/card-art/dongni-0.4.0-reference-v1/who-meaning.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/card-art/mod-form-0.3.0-concept-v1.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/card-art/qu-curse-0.4.0-v8.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/CardFusion-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/CardFusion-10EB2C911D25-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/CardFusion-7B6FD1EDB04C-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/ColumbinaMod-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/ColumbinaMod-2.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/ColumbinaMod-3.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/DixieRelicSort-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/event-art/blood-sect-initiation-0.4.0-v1.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/event-art/dongni-office-0.4.0-v1.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/event-art/thunder-sect-initiation-0.4.0-v1.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/FusionExpansionPack-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/FusionExpansionPack-2.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/FusionExpansionPack-3.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/Gravity-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/heart-keys/key_blue.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/heart-keys/key_green.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/heart-keys/key_red.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/heart-keys/key_slots.png" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/Medo-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/plague-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/RelicRewardChoices-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/YUICore-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/YUICore-2.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/YUICore-3.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/assets/YuWanCard.Content-1.xor.br" />
+   <_LocalInput Include="$(PatchInputsDir)/catalog.json" />
+  </ItemGroup>
+  <Error Condition="!Exists('%(_LocalInput.Identity)')" Text="缺少本地构建输入：%(_LocalInput.Identity)。请配置 Local.Build.props；源码包不附带游戏、SDK、差分或图片。" />
+ </Target>
+</Project>
