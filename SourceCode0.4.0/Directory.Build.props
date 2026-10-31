@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup><RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot></PropertyGroup>
+  <Import Project="$(RepositoryRoot)Local.Build.props" Condition="Exists('$(RepositoryRoot)Local.Build.props')" />
+  <PropertyGroup>
+    <GameManagedDir Condition="'$(GameManagedDir)' == ''">$(STS2_GAME_MANAGED_DIR)</GameManagedDir>
+    <RitsuSdkDir Condition="'$(RitsuSdkDir)' == ''">$(STS2_RITSU_SDK_DIR)</RitsuSdkDir>
+    <MonoCecilDir Condition="'$(MonoCecilDir)' == ''">$(STS2_CECIL_DIR)</MonoCecilDir>
+    <WorkshopDir Condition="'$(WorkshopDir)' == ''">$(STS2_WORKSHOP_DIR)</WorkshopDir>
+    <PatchInputsDir Condition="'$(PatchInputsDir)' == ''">$(STS2_PATCH_INPUTS_DIR)</PatchInputsDir>
+    <PrivateDependenciesDir Condition="'$(PrivateDependenciesDir)' == ''">$(RepositoryRoot)local-deps</PrivateDependenciesDir>
+  </PropertyGroup>
+</Project>
