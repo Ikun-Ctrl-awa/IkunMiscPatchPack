@@ -1,0 +1,212 @@
+{
+  "Version": "0.4.0",
+  "MainOptions": 48,
+  "MiscOptions": 8,
+  "PatchOptions": 40,
+  "BuildInputs": [
+    {
+      "Path": "assets/AutoAnthony-1.xor.br",
+      "Bytes": 3695949,
+      "Sha256": "9313B494622028BDE2F2921793FB7AE53157E9420C5E722E88360DEF9D3D189F"
+    },
+    {
+      "Path": "assets/AutoAnthony-EACE09DAF5DB-1.xor.br",
+      "Bytes": 3698368,
+      "Sha256": "669BB1D798B545EB8F05D5A5BBC6C07FA1CFE4AF1F6F73F58E785D57A6F854D5"
+    },
+    {
+      "Path": "assets/BetterAscension-1.xor.br",
+      "Bytes": 44746,
+      "Sha256": "2157BB28CEB1246C33ED3267793B4681D53135AB41345116C94948AB4EDE3057"
+    },
+    {
+      "Path": "assets/BetterAscension-2.xor.br",
+      "Bytes": 44605,
+      "Sha256": "E364997AB8DC4DAAA2756D8DB848DCC6DD913E896B503164B871CADDD4F0A6D0"
+    },
+    {
+      "Path": "assets/BetterAscension-3.xor.br",
+      "Bytes": 44121,
+      "Sha256": "43FF1B425F2A0C5F74971C2E8A150EE876BAD3ACBD9C70AD2553737DF5C95AE4"
+    },
+    {
+      "Path": "assets/card-art/blood-sect-0.3.0-weapon-v1.png",
+      "Bytes": 1959164,
+      "Sha256": "6A40FC93BBAE42BFA652DD0BB06797126F558C83C896DCAFCD4E4BAB5B8EF8E2"
+    },
+    {
+      "Path": "assets/card-art/cockroach-form-0.4.0-v2.png",
+      "Bytes": 1986501,
+      "Sha256": "10DC7EF3BD29B5CDFAE9DDAC888BBD5603A687CC169B52CE5B6DB658FD40E617"
+    },
+    {
+      "Path": "assets/card-art/dongni-0.4.0-reference-v1/defend.png",
+      "Bytes": 2644447,
+      "Sha256": "479E96C4BADC18D685A7519F5C5D51ACECBD525E58DFB4FC01832604E6096778"
+    },
+    {
+      "Path": "assets/card-art/dongni-0.4.0-reference-v1/meaning.png",
+      "Bytes": 2426883,
+      "Sha256": "52C7428C300C9FD966490A44CABC983C40825F692C213A48F3057621B5090040"
+    },
+    {
+      "Path": "assets/card-art/dongni-0.4.0-reference-v1/not-meaning.png",
+      "Bytes": 2429108,
+      "Sha256": "AC2E737A28280AE73E75DDB66E27DE36BF76E9F66F55408EEA35D532462FF108"
+    },
+    {
+      "Path": "assets/card-art/dongni-0.4.0-reference-v1/strike.png",
+      "Bytes": 2661489,
+      "Sha256": "40BB3BA139999E7F5151C1A42E192187F957C7E6CC65DB22AC2024EBBE323440"
+    },
+    {
+      "Path": "assets/card-art/dongni-0.4.0-reference-v1/who-meaning.png",
+      "Bytes": 2371960,
+      "Sha256": "B13071C9441CFE5D17CE76CAB2E8C79EDA481E842F99C9D5AC9746B140E3FCA9"
+    },
+    {
+      "Path": "assets/card-art/mod-form-0.3.0-concept-v1.png",
+      "Bytes": 2361257,
+      "Sha256": "DBA13432F1D0462D409495A03E91498D2B5221CD5803825C60B48627EA435706"
+    },
+    {
+      "Path": "assets/card-art/qu-curse-0.4.0-v8.png",
+      "Bytes": 2473724,
+      "Sha256": "78ED5F7A114F2CC443A55E4A2222B80C2AA17A5460742196DFEE66B98AF0AEBD"
+    },
+    {
+      "Path": "assets/CardFusion-1.xor.br",
+      "Bytes": 320784,
+      "Sha256": "A67F69F174E92109E98C655B7232C474760E108496C5CEF5F4B07BE5220D7FA7"
+    },
+    {
+      "Path": "assets/CardFusion-10EB2C911D25-1.xor.br",
+      "Bytes": 290925,
+      "Sha256": "A47B911E260A39310A57B30934214A0D1FB776C9EE2780FD871FEF0A36F2A00C"
+    },
+    {
+      "Path": "assets/CardFusion-7B6FD1EDB04C-1.xor.br",
+      "Bytes": 311027,
+      "Sha256": "36D787E4116D25F1ADEEE80734EA5E90DC9824BE35B70289D6C3478FCE9EF5E6"
+    },
+    {
+      "Path": "assets/ColumbinaMod-1.xor.br",
+      "Bytes": 163789,
+      "Sha256": "1CF359062E93645A9F526882B495AD87E8A12636061D350B1C560632D678BE94"
+    },
+    {
+      "Path": "assets/ColumbinaMod-2.xor.br",
+      "Bytes": 162558,
+      "Sha256": "0D6418C3ED2C311FC83A899E6AE6898983037F726FC009C04B41C524FD836805"
+    },
+    {
+      "Path": "assets/ColumbinaMod-3.xor.br",
+      "Bytes": 161802,
+      "Sha256": "EC29BD5A16AAFB9FAE206FD7542BFED0F62D5DA2731FBDD6FC31CFC433F3E999"
+    },
+    {
+      "Path": "assets/DixieRelicSort-1.xor.br",
+      "Bytes": 33414,
+      "Sha256": "563BAB61D65E028836A4CE98FD39EA05B59BC11B4C940BCDD5D063712D48DF04"
+    },
+    {
+      "Path": "assets/event-art/blood-sect-initiation-0.4.0-v1.png",
+      "Bytes": 2617765,
+      "Sha256": "C50741ED5802F97CEF43CC62A1396BF368141B35ED6E5CB6EBCE9F691CE796B8"
+    },
+    {
+      "Path": "assets/event-art/dongni-office-0.4.0-v1.png",
+      "Bytes": 2156719,
+      "Sha256": "ED9A66233B79723161912DE86E3D80178FC6717D6C107A6E7825D8699935C56B"
+    },
+    {
+      "Path": "assets/event-art/thunder-sect-initiation-0.4.0-v1.png",
+      "Bytes": 3065730,
+      "Sha256": "B50EA1F66627E32617C4846C4C7864BFF23E5F7DEA2B5F9B326EF932DEF68395"
+    },
+    {
+      "Path": "assets/FusionExpansionPack-1.xor.br",
+      "Bytes": 42472,
+      "Sha256": "311B84B14B267F1D2E7B75657EF5223F2AAA1BAA7F647276DA6C7AE0DDAE4411"
+    },
+    {
+      "Path": "assets/FusionExpansionPack-2.xor.br",
+      "Bytes": 42300,
+      "Sha256": "1727ACE95BC08BE2B56D730377FFF401972758E6DB1B5028463ABF9AD8A02055"
+    },
+    {
+      "Path": "assets/FusionExpansionPack-3.xor.br",
+      "Bytes": 42047,
+      "Sha256": "B966BA83C279C017F0A4B0D7C215BF092F27B649451B1DD27CC4A3CC12F09B95"
+    },
+    {
+      "Path": "assets/Gravity-1.xor.br",
+      "Bytes": 122090,
+      "Sha256": "7EE43D5BE3BB78A32AACD9F7816FFEEA43C13819CF50C5DD74D08BC6CCE5D4C8"
+    },
+    {
+      "Path": "assets/heart-keys/key_blue.png",
+      "Bytes": 2028,
+      "Sha256": "02DD6BF8371584B3513F0399F40FB7D5AF07682FD40F7793923A22A288FA06CB"
+    },
+    {
+      "Path": "assets/heart-keys/key_green.png",
+      "Bytes": 2051,
+      "Sha256": "F54180F998FC81EBAADD19989D1913D8FB86FB8DB01449E61D496724F725B8C2"
+    },
+    {
+      "Path": "assets/heart-keys/key_red.png",
+      "Bytes": 2008,
+      "Sha256": "BD081CA98D67BC686E10BC1F8ABB4B3A6FEE377972CE23671768C14FD7A9DA37"
+    },
+    {
+      "Path": "assets/heart-keys/key_slots.png",
+      "Bytes": 2098,
+      "Sha256": "C6ACFF79560CBD34B2C6CD2D7177E31021FB42D00E6A3D7DF93E8F6DAE9E503D"
+    },
+    {
+      "Path": "assets/Medo-1.xor.br",
+      "Bytes": 37953,
+      "Sha256": "A42CC3C4AEAA46D5DA764BEE42FBA6C735802D07D349D301F08D7DE47A3226CB"
+    },
+    {
+      "Path": "assets/plague-1.xor.br",
+      "Bytes": 122238,
+      "Sha256": "3CFF5BDBA4C8FE0EF64DDA0FF3DA1815F5D934BDB2C1E2E2A4F7BD85AC115656"
+    },
+    {
+      "Path": "assets/RelicRewardChoices-1.xor.br",
+      "Bytes": 158883,
+      "Sha256": "61C14316EE4BF10540F190D5C2A8240B445826DF16CB955B9977B08D3354B54A"
+    },
+    {
+      "Path": "assets/YUICore-1.xor.br",
+      "Bytes": 330372,
+      "Sha256": "4960B5479E0F87ADC4F0DC49828D939ED434AD4A3777C02A31875D03F5F4EB17"
+    },
+    {
+      "Path": "assets/YUICore-2.xor.br",
+      "Bytes": 334229,
+      "Sha256": "677ACF2CCBE074F5318FD89FAD53236E6EEF8066825FB992C2803F345CDC7A47"
+    },
+    {
+      "Path": "assets/YUICore-3.xor.br",
+      "Bytes": 337208,
+      "Sha256": "B32FA007933701A6ACF9053261E493833E94F05778E2E48977EA31D76A6F7CF1"
+    },
+    {
+      "Path": "assets/YuWanCard.Content-1.xor.br",
+      "Bytes": 1387238,
+      "Sha256": "A3B85F3FA841E99B8D6CCFFAB8743C591FA626B8F17DB4CE65368C8D18478224"
+    },
+    {
+      "Path": "catalog.json",
+      "Bytes": 8531,
+      "Sha256": "D9B305A2A0925B3BC1FA8174BF841EF9CB8D360ABCF49ABA607A3A7135263D59"
+    }
+  ],
+  "StaticTestsAdditionalInputs": [
+    "variants/",
+    "api/release-blockers/original/<SHA256>/*.dll"
+  ]
+}

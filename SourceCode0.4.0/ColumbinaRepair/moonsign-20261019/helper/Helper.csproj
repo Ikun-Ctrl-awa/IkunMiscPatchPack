@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net9.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="sts2"><HintPath>$(GameManagedDir)/sts2.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
