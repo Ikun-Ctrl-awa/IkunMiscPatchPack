@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net9.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><AssemblyName>IkunMiscPatchPack</AssemblyName><Version>0.5.0</Version></PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)'=='Release'"><DebugType>none</DebugType><DebugSymbols>false</DebugSymbols></PropertyGroup>
+ <ItemGroup>
+  <Reference Include="sts2"><HintPath>$(GameManagedDir)/sts2.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="GodotSharp"><HintPath>$(GameManagedDir)/GodotSharp.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="0Harmony"><HintPath>$(GameManagedDir)/0Harmony.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib.Runtime"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.Runtime.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib.Settings"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.Settings.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="STS2-RitsuLib.Shared"><HintPath>$(RitsuSdkDir)/STS2-RitsuLib.Shared.dll</HintPath><Private>false</Private></Reference>
+ </ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/heart-keys/*.png"><LogicalName>heartkeys.%(Filename)%(Extension)</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/mod-form-0.3.0-concept-v1.png"><LogicalName>cardart.mod_form.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/blood-sect-0.3.0-weapon-v1.png"><LogicalName>cardart.blood_sect.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/*.br"><LogicalName>patch.%(Filename)%(Extension)</LogicalName></EmbeddedResource><EmbeddedResource Include="$(PatchInputsDir)/catalog.json"><LogicalName>patch.catalog</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/dongni-0.4.0-reference-v1/*.png"><LogicalName>cardart.dongni.%(Filename)%(Extension)</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/event-art/dongni-office-0.4.0-v1.png"><LogicalName>eventart.dongni_office.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/event-art/blood-sect-initiation-0.4.0-v1.png"><LogicalName>eventart.blood_sect_initiation.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/event-art/thunder-sect-initiation-0.4.0-v1.png"><LogicalName>eventart.thunder_sect_initiation.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/cockroach-form-0.4.0-v2.png"><LogicalName>cardart.cockroach_form.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/qu-curse-0.4.0-v8.png"><LogicalName>cardart.qu_curse.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/dongni-curse-0.5.0-v1.png"><LogicalName>cardart.dongni_curse.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/dongni-disgust-0.5.0-v1.png"><LogicalName>cardart.dongni_disgust.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/lag-curse-0.5.0-loading-v1.png"><LogicalName>cardart.lag_curse.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/relic-art/portable-sleeping-bag-0.5.0-v1.png"><LogicalName>relicart.portable_sleeping_bag.png</LogicalName></EmbeddedResource></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="$(PatchInputsDir)/assets/card-art/x-expansion-0.5.0-v1/*.png"><LogicalName>cardart.x.%(Filename)%(Extension)</LogicalName></EmbeddedResource></ItemGroup>
+</Project>
