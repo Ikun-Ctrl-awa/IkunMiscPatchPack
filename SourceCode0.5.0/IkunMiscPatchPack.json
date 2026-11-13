@@ -1,0 +1,17 @@
+{
+  "id": "IkunMiscPatchPack",
+  "name": "艾堃的杂项与补丁包（IkunMiscPatchPack）",
+  "author": "艾堃",
+  "description": "0.5.0 测试版：51项杂项与补丁。包含塔之诅咒、五角色X牌扩展、便携睡袋及兼容修复；额外休息处不能整理。支持旧Aikun配置及存档迁移。",
+  "version": "0.5.0",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": true,
+  "min_game_version": "0.111.0",
+  "dependencies": [
+    {
+      "id": "STS2-RitsuLib",
+      "min_version": "0.6.7"
+    }
+  ]
+}

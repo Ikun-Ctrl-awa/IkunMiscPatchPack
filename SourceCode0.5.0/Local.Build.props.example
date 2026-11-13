@@ -1,0 +1,1 @@
+<Project><PropertyGroup><GameManagedDir>C:/Games/SlayTheSpire2/data_sts2_windows_x86_64</GameManagedDir><RitsuSdkDir>C:/LocalDependencies/ritsulib-0.6.7</RitsuSdkDir><MonoCecilDir>C:/LocalDependencies/cecil/lib/netstandard2.0</MonoCecilDir><PatchInputsDir>C:/LocalDependencies/IkunMiscPatchPack-private-inputs</PatchInputsDir></PropertyGroup></Project>
